@@ -11,3 +11,161 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home {
+  background-image: url(./images/headshot.jpeg);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+  font-family: 'PT Sans';
+  font-weight: bold;
+  font-size: 2vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.footerhead {
+  font-size: 3vw;
+}
+
+.footer-left {
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
+  font-size: 1vw;
+
+}
+
+.footer_middle {
+  text-align: center;
+  padding: 0;
+}
+
+.footer_right {
+  text-align: right;
+  padding-top: 10px;
+  font-size: 1vw;
+}
+
+.footer_copyright p {
+  font-size: 12px;
+  text-align: center;
+  color: rgb(0,0,0,0.5);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 50px;
+  place-items: stretch stretch;
+  justify-content: space-around;
+}
+
+.wholethang {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 8vw;
+  font-family: 'PT Sans';
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 4%;
+  left: 2%;
+
+}
+
+.top {
+font-family: 'Raleway';
+font-weight: bold;
+}
+
+.jsicon {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: 10px;
+  right: 10px;
+}
+
+.banner {
+  background-color: rgb(38, 53, 38);
+}
+
+.bannerText {
+  font-size: 10vw;
+  color: whitesmoke;
+  padding-top: 100px;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.banner2 {
+  background-color: rgb(21, 29, 21);
+  text-align: center;
+  padding: 100px;
+  font-size: 1.5vw;
+  color: whitesmoke;
+}
+
+.bannerText2 {
+
+}
+
+.header {
+  background-color: rgb(38, 53, 38)
+}
+
+.card-header {
+  color: white;
+  font-family: 'PT Sans';
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.cards {
+  background-color: whitesmoke;
+}
+
+.githublogo {
+  width: 5vw;
+  height: 4.75vw;
+  padding-left: 4px;
+}
+
+.linkedinlogo {
+  width: 6vw;
+  height: 6vw;
+}
+
+.navbar {
+  position: absolute;
+  transition: top 0.5s;
+}
+
+.navbar-hide {
+  top: -56px;
+}
+
+.navtitle {
+  text-align: center;
+  font-family: 'PT Sans';
+}
+
+.navhead {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.navsubhead {
+  font-size: 1.25vw;
+}
